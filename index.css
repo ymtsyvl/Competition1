@@ -1,0 +1,224 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(gotham-medium.ttf);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 25px;
+    z-index: 6; /* making sure the nav bar is top level */
+    vertical-align: center;
+}
+
+
+.social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 10px;
+    z-index: 6; /* making sure the nav bar is top level */
+    vertical-align: center;
+}
+
+
+li {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+	font-family: myFirstFont;
+}
+
+li a:hover {
+    background-color: #A7FFEB;
+}
+
+
+hr {
+  color: #123455;
+}
+
+#map {
+        width: 100%;
+        height: 400px;
+      }
+
+.active {
+    background-color: #A7FFEB;
+
+}
+
+#contacts {
+    background-color: #A7FFEB;
+}
+
+#programme img {
+	width: 260px;
+}
+
+#programme h1 {
+	font-family: myFirstFont;
+}
+
+#programme h4 {
+	font-family: myFirstFont;
+	text-align: center;
+}
+
+#p_text {
+    font-family: Gill Sans;
+}
+
+#read {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.cover p {
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	padding: 250px;
+	font-family: myFirstFont;
+}
+
+#tickets {
+	font-family: myFirstFont;
+}
+
+#tickets a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+
+
+#tickets a:hover {
+	color: ; #A7FFEB;
+	padding: 10px;
+}
+
+#tickets {
+    font-family: myFirstFont;
+}
+
+
+#contacts h1 {
+	font-family: myFirstFont;
+}
+
+#contacts h4 {
+    font-family: myFirstFont;
+}
+
+#news img {
+    width: 300px;
+    height: 450px
+}
+
+#sponsors img {
+    width: 150px;
+    height: 73px
+    padding: 100px 50px;
+}
+
+
+#news {
+    font-family: myFirstFont;
+}
+
+#sponsors {
+    font-family: myFirstFont;
+    margin: 10px;
+}
+
+.carousel-inner {
+    max-height: 700px;
+}
+
+.carousel-inner p {
+    font-family: myFirstFont;
+    font-size: 50px;
+    padding: 120px;
+}
+
+.carousel-inner img {
+    height: 30%;
+}
+
+.t_headings {
+    font-family: myFirstFont;
+}
+
+.p {
+    font-family: Gill Sans;
+}
+
+.t_buttons {
+    font-family: myFirstFont;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+.panel-heading {
+    font-family: myFirstFont;
+    color: white;
+}
+
+#get {
+    font-family: myFirstFont;
+}
+
+#info {
+    font-family: Gill Sans;
+}
+
+#video {
+    padding: 0px 0px 50px 10px
+}
+
+#video h3 {
+    text-align: center;
+}
+
+#video_text {
+    font-family: Gill Sans;
+    text-align: center;
+}
+
+.row img {
+    align: center;
+}
+
+#input {
+    font-family: myFirstFont;
+}
+
+p .center-block() {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
